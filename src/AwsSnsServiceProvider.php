@@ -74,6 +74,6 @@ class AwsSnsServiceProvider extends ServiceProvider
      */
     protected function registerConfigs()
     {
-        app()->configure('aws-sns');
+        config('aws-sns');
     }
 }
